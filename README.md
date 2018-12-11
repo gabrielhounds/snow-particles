@@ -1,4 +1,2 @@
 # snow-particles
-
-This is a dom based snow animation class. 
- 
+Dom based snow particle animation
