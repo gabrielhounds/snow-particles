@@ -1,15 +1,17 @@
 # Snow-Particles
 
-Dom based snow particle animation class. Create festive snowfall inside any element you want! Anytime of year! Climate change is no concern! You can be indoors or outdoors
+Dom based snow particle animation class. Create festive snowfall inside any element you want! Anytime of year! Climate change is no concern! You can be indoors or outdoors.
 
-Example in [Sparkfow](https://bit.ly/2RITRb9)  
+The idea was to create a lightweight reusable DOM based particle system for snowfall with an emphasis on depth with parallax motion and simulated depth of field blur. Since this is DOM based, as opposed to canvas or webGL, you are going to inject several hundred ```<div>``` elements into your document. This might not be appropriate for your project. 
+
+Here's an example in [Sparkfow](https://bit.ly/2RITRb9)  
 
 ### Depends on GSAP
 
 * [TweenMax](https://greensock.com/docs/TweenMax) 
 * [Physics2D plugin](https://greensock.com/Physics2DPlugin) [the minified file includes the Physics2D plugin]
 
-### Creating snow is easy - just make a new Snow instance:
+### Making snow is easy - just create a new Snow instance:
 
 ```
 var snow = new Snow({ target:'anyDomElement', intensity:1, pause:true});
