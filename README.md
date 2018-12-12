@@ -18,7 +18,7 @@ Working in Sparkflow: [https://bit.ly/2RITRb9](https://bit.ly/2RITRb9)
 ### Making snow is easy - just create a new Snow instance:
 
 ```
-var snow = new Snow();
+var snow = new Snow({target:'body'});
 ```
 
 ### Additionally you can configure some of the parameters 
