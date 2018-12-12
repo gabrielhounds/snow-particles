@@ -1,5 +1,7 @@
 $(document).ready(function(){
 	init();
+	'use strict';
+
 });
 function init() {
 	var log = console.log;
