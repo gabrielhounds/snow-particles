@@ -14,7 +14,7 @@ Here's an example in [Sparkfow](https://bit.ly/2RITRb9)
 ### Making snow is easy - just create a new Snow instance:
 
 ```
-var snow = new Snow({ target:'anyDomElement', intensity:1, pause:true});
+var snow = new Snow({ target:'anyDOMElement', intensity:1, pause:true});
 ```
 
 ### There are a few optional parameters for customization. 
