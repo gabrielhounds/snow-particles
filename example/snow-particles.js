@@ -1,6 +1,9 @@
 $(document).ready(function(){
-	init();
+
 	'use strict';
+
+	init();
+
 
 });
 function init() {
