@@ -20,13 +20,13 @@ var snow = new Snow({ target:'anyDOMElement', intensity:1, pause:true});
 ### There are a few optional parameters for customization. 
 
 #### target 
-```string``` : Pass a string representing a path to any block level DOM element. Default is ```"body"```
+```string``` - Pass a string representing a path to any block level DOM element. Default is ```"body"```
 
 #### intensity
-```integer``` : Pass a whole number between 1-3 to increase the number of snow particles. Default is 1.
+```integer``` - Pass a whole number between 1-3 to increase the number of snow particles. Default is 1.
 
 #### pause 
-```boolean``` : Setting ```true``` will pause animation when window loses focus. Default is ```false```. You should probably set to ```true``` so you don't melt proples computers.
+```boolean``` - Setting ```true``` will pause animation when window loses focus. Default is ```false```. You should probably set to ```true``` so you don't melt proples computers.
 
 #### img1 & img2
-```string``` : If you want to use your own snowflakes just provide a valid path to up to two images like ```img1:'img1.png'``` If not, there is a pair of default images all ready to go in some fast & robust Amazon S3 servers. 
+```string``` - If you want to use your own snowflakes just provide a valid path to up to two images like ```img1:'img1.png'``` If not, there is a pair of default images all ready to go in some fast & robust Amazon S3 servers. 
