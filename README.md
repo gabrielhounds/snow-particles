@@ -1,10 +1,12 @@
-# snow-particles
+# Snow-Particles
 
-Dom based snow particle animation class. 
+Dom based snow particle animation class. Create snowfall in any dom element!
 
-Snow-particles depends on GSAP [TweenMax](https://greensock.com/docs/TweenMax) and [Physics2D plugin](https://greensock.com/Physics2DPlugin)
+### Depends on GSAP
 
-Create snowfall in any dom element 
+* [TweenMax](https://greensock.com/docs/TweenMax) - The web framework used
+* [Physics2D plugin](https://greensock.com/Physics2DPlugin) - Dependency Management
+
 
 ```
 var snow = new Snow({ target:'anyDomElement', intensity:1, pause:true, img1:'img1.png', img2:'img2.png'});
