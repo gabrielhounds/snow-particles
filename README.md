@@ -7,6 +7,7 @@ Dom based snow particle animation class. Create snowfall in any dom element!
 * [TweenMax](https://greensock.com/docs/TweenMax) 
 * [Physics2D plugin](https://greensock.com/Physics2DPlugin) 
 
+### Instantiation is easy
 
 ```
 var snow = new Snow({ target:'anyDomElement', intensity:1, pause:true, img1:'img1.png', img2:'img2.png'});
