@@ -15,7 +15,7 @@ var snow = new Snow({ target:'anyDomElement', intensity:1, pause:true, img1:'img
 
 ### Snow-Particles accept a few optional parameters
 
-#### Target
+#### Target ```string```
 pass a string representing a path to any block level DOM element. Default is "body"
 
 #### Intensity
