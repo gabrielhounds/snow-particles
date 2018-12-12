@@ -1,4 +1,5 @@
 function Snow(params) {
+	'use strict';
 
 	function random(min, max) {
 		if (max == null) { max = min; min = 0; }
