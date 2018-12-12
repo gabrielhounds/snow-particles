@@ -13,7 +13,7 @@ Dom based snow particle animation class. Create festive snowfall in any dom elem
 var snow = new Snow({ target:'anyDomElement', intensity:1, pause:true, img1:'img1.png', img2:'img2.png'});
 ```
 
-### Snow-Particles accept a few optional parameters
+### There are a few optional parameters for customization.
 
 #### Target 
 ```string``` : Pass a string representing a path to any block level DOM element. Default is ```"body"```
@@ -25,4 +25,4 @@ var snow = new Snow({ target:'anyDomElement', intensity:1, pause:true, img1:'img
 ```boolean``` : Setting ```true``` will pause animation when window loses focus. Default is ```false```. You should probably set to ```true``` so you don't melt proples computers.
 
 #### img1 & img2
-```string``` : valid path to image element.
+```string``` : If you want to use your own snowflake images just provide a valid path to some images. If not there are a pair of default images ready to go in some fast & robust Amazon S3 servers.
