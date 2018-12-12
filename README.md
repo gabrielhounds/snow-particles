@@ -2,6 +2,8 @@
 
 Dom based snow particle animation class. Create festive snowfall in any dom element! But yeah, it's DOM based... so we're dealing with a bunch of divs. Like hundreds of divs.
 
+Example in [Sparkfow :](https://bit.ly/2RITRb9)  
+
 ### Depends on GSAP
 
 * [TweenMax](https://greensock.com/docs/TweenMax) 
