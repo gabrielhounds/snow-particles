@@ -1,6 +1,6 @@
 # Snow-Particles
 
-Dom based snow particle animation class. Create festive snowfall inside any element! Climate change is no concern!
+**Dom based snow particle animation class. Create festive snowfall inside any element! Climate change is no concern!**
 
 The goal was to create a responsive, lightweight and reusable DOM based particle system for snowfall with an emphasis on simulated depth with parallax motion and depth of field blur. Since this uses the DOM you are going to inject several hundred ```<div>``` elements into your document. This may not be appropriate for your project. 
 
