@@ -14,9 +14,16 @@ function Snow(params) {
 	var tl_fore     = new TimelineMax( { paused : false} );
 	var tl_front    = new TimelineMax( { paused : false} );
 
+	var params;
+
 	var bgNum1, bgNum2, midNum, foreNum, frontNum, resizeTimer, snow1_img, snow2_img, flakes, bgFlakes_far, bgFlakes_near, midFlakes, foreFlakes, frontFlakes, target;
 
 	var flakeNum = [];
+
+	if (typeof params === 'undefined') {
+		params = {};
+		params.target = 'body';
+	}
 
 	if(typeof params.target === 'undefined'){
 		params.target = 'body';
