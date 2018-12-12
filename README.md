@@ -18,16 +18,17 @@ Working in Sparkflow: [https://bit.ly/2RITRb9](https://bit.ly/2RITRb9)
 ### Making snow is easy - just create a new Snow instance:
 
 ```
-var snow = new Snow({ target:'anyDOMElement' });
+var snow = new Snow();
 ```
 
-### Or configure some of the parameters 
+### Additionally you can configure some of the parameters 
 
 ```
 var snow = new Snow({ target:'anyDOMElement', intensity:1, pause:true, img1:'Specialsnowflake1.png', img2:'Specialsnowflake2.png' });
 ```
 
-### There are a few optional parameters for customization. 
+### Optional parameters for customization 
+**(Working on adding more customization)**
 
 #### target 
 ```string``` - Pass a string representing a path to any block level DOM element. Default is ```"body"```
