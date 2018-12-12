@@ -2,7 +2,7 @@
 
 Dom based snow particle animation class. Create festive snowfall inside any element you want! Anytime of year! Climate change is no concern! You can be indoors or outdoors.
 
-The idea was to create a lightweight reusable DOM based particle system for snowfall with an emphasis on depth with parallax motion and simulated depth of field blur. Since this is DOM based, as opposed to canvas or webGL, you are going to inject several hundred ```<div>``` elements into your document. This may not be appropriate for your project. 
+The goal was to create a lightweight reusable DOM based particle system for snowfall with an emphasis on depth with parallax motion and simulated depth of field blur. Since this is DOM based, as opposed to canvas or webGL, you are going to inject several hundred ```<div>``` elements into your document. This may not be appropriate for your project. 
 
 Here's an example in [Sparkfow](https://bit.ly/2RITRb9)  
 
