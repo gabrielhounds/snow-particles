@@ -28,7 +28,7 @@ var snow = new Snow({ target:'anyDOMElement', intensity:1, pause:true, img1:'Spe
 ```
 
 ### Optional parameters for customization 
-**(Working on adding more customization)**
+**(adding more customization in a future release)**
 
 #### target 
 ```string``` - Pass a string representing a path to any block level DOM element. Default is ```"body"```
