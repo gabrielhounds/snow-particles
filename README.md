@@ -5,7 +5,7 @@ Dom based snow particle animation class. Create festive snowfall in any dom elem
 ### Depends on GSAP
 
 * [TweenMax](https://greensock.com/docs/TweenMax) 
-* [Physics2D plugin](https://greensock.com/Physics2DPlugin) 
+* [Physics2D plugin](https://greensock.com/Physics2DPlugin) [the minified file includes the Physics2D plugin]
 
 ### Creating snow is easy! Just make a new Snow instance:
 
