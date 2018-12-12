@@ -1,4 +1,3 @@
-
 function Snow(params) {
 
 	function random(min, max) {
